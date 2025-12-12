@@ -1,0 +1,1 @@
+{"name":"wearable","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/data":"file:../data","@ohos/shared_library":"file:../shared_library"}}

@@ -1,0 +1,104 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "d524c1a0811da49592f841085cc0063eb62b3001252a94542795d1ca9824a941",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "709b7d4f44601161de61426bc0c44be63aef79f53d5635596ff926a8d3ffebda",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "3795f3d62c54907e7b8ccc36f7f5c3b2f66e27d9bf1f4455e45ead4055675bdb",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7",
+        "API_TYPE": "stageMode"
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "d524c1a0811da49592f841085cc0063eb62b3001252a94542795d1ca9824a941": {
+        "CreateModuleInfo": 1755500,
+        "PreCheckSyscap": 688700,
+        "ProcessIntegratedHsp": 1809000,
+        "SyscapTransform": 4434100,
+        "ProcessStartupConfig": 4096600,
+        "ConfigureCmake": 991600,
+        "BuildNativeWithCmake": 926100,
+        "BuildJS": 6253200,
+        "BuildNativeWithNinja": 850200,
+        "ProcessCompiledResources": 1314400,
+        "PackingCheck": 10364300,
+        "SignHap": 4591300,
+        "CollectDebugSymbol": 2251200,
+        "assembleHap": 765600
+      },
+      "3795f3d62c54907e7b8ccc36f7f5c3b2f66e27d9bf1f4455e45ead4055675bdb": {
+        "CreateModuleInfo": 1837200,
+        "PreCheckSyscap": 1152100,
+        "ProcessIntegratedHsp": 1346600,
+        "ProcessModulePrivacyProfile": 1968100,
+        "SyscapTransform": 4343800,
+        "ProcessStartupConfig": 3898700,
+        "ConfigureCmake": 995300,
+        "BuildNativeWithCmake": 871000,
+        "BuildNativeWithNinja": 941900,
+        "BuildJS": 4654900,
+        "PackingCheck": 7038300,
+        "CollectDebugSymbol": 2445200,
+        "PackageSharedTgz": 1486500,
+        "assembleHsp": 371300
+      },
+      "3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7": {
+        "CreateModuleInfo": 1120300,
+        "ConfigureCmake": 876300,
+        "PreCheckSyscap": 772200,
+        "ProcessIntegratedHsp": 1508400,
+        "ProcessModulePrivacyProfile": 1842200,
+        "BuildNativeWithCmake": 822700,
+        "SyscapTransform": 5817300,
+        "ProcessStartupConfig": 6319300,
+        "BuildNativeWithNinja": 2208600,
+        "BuildJS": 6965500,
+        "PackingCheck": 11592500,
+        "CollectDebugSymbol": 2353800,
+        "PackageSharedTgz": 1427900,
+        "assembleHsp": 996800
+      }
+    },
+    "APIS": [
+      "getHvigorConfig",
+      "getRootNodeDescriptor",
+      "getChildNode",
+      "getNodeByName",
+      "getAllNodes",
+      "getRootNode",
+      "getNodeName",
+      "getNodePath",
+      "subNodes",
+      "getExtraOption",
+      "getExtParam",
+      "getExtParams",
+      "getProperty",
+      "getProperties",
+      "getParameter",
+      "getProductName",
+      "nodesEvaluated",
+      "getCommandEntryTask"
+    ],
+    "CONFIG_PROPERTIES": {},
+    "TOTAL_TIME": 1965646000,
+    "BUILD_ID": "202512121607543440"
+  }
+}

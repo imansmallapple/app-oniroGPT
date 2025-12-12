@@ -1,0 +1,1 @@
+{"name":"mobile","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"@ohos/shared_library":"file:../shared_library","@ohos/data":"file:../data"}}
